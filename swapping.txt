@@ -1,0 +1,20 @@
+import java.util.*;
+class Swpping
+{
+public static void main(String[] args)
+{
+Scanner scan=new Scanner(System.in);
+System.out.println("Enter two numbers");
+int temp;
+int a=scan.nextInt();
+int b=scan.nextInt();
+System.out.println(a+" "+"after swapping");
+System.out.println(b+" "+"after swapping");
+temp=a;
+a=b;
+b=temp;
+System.out.println(a+" "+"after swapping");
+System.out.println(b+" "+"after swapping");
+}
+}
+ 
